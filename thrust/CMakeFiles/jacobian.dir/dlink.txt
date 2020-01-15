@@ -1,0 +1,1 @@
+/usr/local/cuda-prefix/x86_64/default/10.0/bin/nvcc -ccbin=/usr/local/gcc/7.1.0/bin/gcc  -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/jacobian.dir/jacobian.cu.o -o CMakeFiles/jacobian.dir/cmake_device_link.o 

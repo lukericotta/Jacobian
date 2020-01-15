@@ -1,0 +1,82 @@
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-prefix/x86_64/default/10.0/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda-prefix/x86_64/default/10.0/bin
+#$ _THERE_=/usr/local/cuda-prefix/x86_64/default/10.0/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/usr/local/cuda-prefix/x86_64/default/10.0/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda-prefix/x86_64/default/10.0/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/bin/../lib:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64:/usr/lib64/nvidia/tls:/usr/lib64/nvidia:/usr/local/cuda-prefix/x86_64/default/10.0/extras/CUPTI/lib64:/usr/local/cuda-prefix/x86_64/default/10.0/lib64:/usr/local/cuda-prefix/x86_64/default/10.0/lib:/usr/local/gcc/x86_64/8.2.0/lib64:/usr/local/gcc/7.1.0/lib64
+#$ PATH=/usr/local/cuda-prefix/x86_64/default/10.0/bin/../nvvm/bin:/usr/local/cuda-prefix/x86_64/default/10.0/bin:/usr/local/cuda-prefix/x86_64/default/10.0/NsightCompute-1.0:/usr/local/cuda-prefix/x86_64/default/10.0/bin:/usr/local/cmake/x86_64/3.14.0/bin:/usr/local/gcc/x86_64/8.2.0/bin:/srv/home/lukericotta/anaconda3/bin:/srv/home/lukericotta/anaconda3/condabin:/usr/local/Modules/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/puppetlabs/bin:/srv/home/lukericotta/.local/bin:/srv/home/lukericotta/bin:/usr/local/gcc/7.1.0/bin
+#$ INCLUDES="-I/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include"  
+#$ LIBRARIES=  "-L/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//lib64/stubs" "-L/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -std=c++14 -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=0 -D__CUDACC_VER_BUILD__=130 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 7 are not supported!
+ #error -- unsupported GNU version! gcc versions later than 7 are not supported!
+  ^~~~~
+# --error 0x1 --
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-prefix/x86_64/default/10.0/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+1
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda-prefix/x86_64/default/10.0/bin
+#$ _THERE_=/usr/local/cuda-prefix/x86_64/default/10.0/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/usr/local/cuda-prefix/x86_64/default/10.0/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda-prefix/x86_64/default/10.0/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/bin/../lib:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64:/usr/lib64/nvidia/tls:/usr/lib64/nvidia:/usr/local/cuda-prefix/x86_64/default/10.0/extras/CUPTI/lib64:/usr/local/cuda-prefix/x86_64/default/10.0/lib64:/usr/local/cuda-prefix/x86_64/default/10.0/lib:/usr/local/gcc/x86_64/8.2.0/lib64:/usr/local/gcc/7.1.0/lib64
+#$ PATH=/usr/local/cuda-prefix/x86_64/default/10.0/bin/../nvvm/bin:/usr/local/cuda-prefix/x86_64/default/10.0/bin:/usr/local/cuda-prefix/x86_64/default/10.0/NsightCompute-1.0:/usr/local/cuda-prefix/x86_64/default/10.0/bin:/usr/local/cmake/x86_64/3.14.0/bin:/usr/local/gcc/x86_64/8.2.0/bin:/srv/home/lukericotta/anaconda3/bin:/srv/home/lukericotta/anaconda3/condabin:/usr/local/Modules/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/puppetlabs/bin:/srv/home/lukericotta/.local/bin:/srv/home/lukericotta/bin:/usr/local/gcc/7.1.0/bin
+#$ INCLUDES="-I/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include"  
+#$ LIBRARIES=  "-L/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//lib64/stubs" "-L/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -std=c++14 -D__CUDA_ARCH__=300 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include"    -D__CUDACC_VER_MAJOR__=10 -D__CUDACC_VER_MINOR__=0 -D__CUDACC_VER_BUILD__=130 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+In file included from /usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 7 are not supported!
+ #error -- unsupported GNU version! gcc versions later than 7 are not supported!
+  ^~~~~
+# --error 0x1 --
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1ff5f/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_1ff5f.dir/build.make CMakeFiles/cmTC_1ff5f.dir/build
+gmake[1]: Entering directory `/srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_1ff5f.dir/main.cu.o
+/usr/local/cuda-prefix/x86_64/default/10.0/bin/nvcc     -x cu -c /srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_1ff5f.dir/main.cu.o
+In file included from /usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include/cuda_runtime.h:83,
+                 from <command-line>:
+/usr/local/cuda-prefix/x86_64/default/10.0/bin/..//include/crt/host_config.h:129:2: error: #error -- unsupported GNU version! gcc versions later than 7 are not supported!
+ #error -- unsupported GNU version! gcc versions later than 7 are not supported!
+  ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_1ff5f.dir/main.cu.o] Error 1
+gmake[1]: Leaving directory `/srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1ff5f/fast] Error 2
+
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/srv/home/ytrivedi/me759-juja/project/cuda/f_eval.cuh
+
+/srv/home/ytrivedi/me759-juja/project/cuda/jacobianBase.cu
+iostream
+-
+fstream
+-
+string
+-
+stdlib.h
+-
+vector
+-
+sstream
+-
+cuda.h
+-
+f_eval.cuh
+/srv/home/ytrivedi/me759-juja/project/cuda/f_eval.cuh
+

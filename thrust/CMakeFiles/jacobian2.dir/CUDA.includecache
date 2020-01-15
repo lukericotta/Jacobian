@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/srv/home/lukericotta/me759-juja/project/thrust/f_eval.cuh
+
+/srv/home/lukericotta/me759-juja/project/thrust/jacobian.cu
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+omp.h
+-
+f_eval.cuh
+/srv/home/lukericotta/me759-juja/project/thrust/f_eval.cuh
+thrust/device_vector.h
+-
+thrust/reduce.h
+-
+thrust/functional.h
+-
+thrust/transform_reduce.h
+-
+thrust/host_vector.h
+-
+thrust/device_ptr.h
+-
+

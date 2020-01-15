@@ -1,0 +1,9 @@
+Sat May  4 19:29:38 UTC 2019
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/home/lukericotta/me759-juja/project/thrust
+Scanning dependencies of target jacobian2
+[ 33%] Building CUDA object CMakeFiles/jacobian2.dir/jacobian.cu.o
+[ 66%] Linking CUDA device code CMakeFiles/jacobian2.dir/cmake_device_link.o
+[100%] Linking CUDA executable jacobian2
+[100%] Built target jacobian2

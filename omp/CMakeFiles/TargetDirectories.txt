@@ -1,0 +1,3 @@
+/srv/home/lukericotta/me759-juja/project/omp/CMakeFiles/edit_cache.dir
+/srv/home/lukericotta/me759-juja/project/omp/CMakeFiles/rebuild_cache.dir
+/srv/home/lukericotta/me759-juja/project/omp/CMakeFiles/jacobian.dir

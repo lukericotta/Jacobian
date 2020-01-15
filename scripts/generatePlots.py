@@ -1,0 +1,47 @@
+import sys
+import numpy as np
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+import matplotlib.pyplot as plt
+
+ipfile = str(sys.argv[1])
+opfile = str(sys.argv[2])
+
+nList = []
+mList = []
+values = {}
+
+def fun(n, m):
+    return values['n' + str(n) + 'm' + str(m)]
+
+with open(ipfile, 'r') as f:
+    for line in f:
+        parts = line.strip().split()
+        n = 'n' + str(float(parts[0].strip()))
+        nList.append(str(float(parts[0].strip())))
+
+        m = 'm' + str(float(parts[1].strip()))
+        mList.append(str(float(parts[1].strip())))
+        
+        values[n + m] = float(parts[2].strip())
+
+fig = plt.figure(figsize=(16,9))
+ax = fig.gca(projection='3d')
+
+n = list(set(nList))
+m = list(set(mList))
+
+X, Y = np.meshgrid(n, m)
+zs = np.array([fun(a,b) for a,b in zip(np.ravel(X), np.ravel(Y))])
+
+surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm, linewidth=0, antialiased=True)
+
+ax.set_xlabel('n')
+ax.set_ylabel('m')
+ax.set_zlabel('time (ms)')
+
+plt.grid(True)
+
+fig.savefig(opfile, dpi=600, format='png', bbox_inches='tight')
+
+plt.show()

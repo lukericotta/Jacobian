@@ -1,0 +1,1 @@
+/usr/local/gcc/7.1.0/bin/g++  CMakeFiles/jacobianBase.dir/jacobianBase.cu.o CMakeFiles/jacobianBase.dir/cmake_device_link.o -o jacobianBase  -L"/usr/local/cuda-prefix/x86_64/default/10.0/lib64/stubs" -L"/usr/local/cuda-prefix/x86_64/default/10.0/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

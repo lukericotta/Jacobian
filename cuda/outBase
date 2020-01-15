@@ -1,0 +1,7 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/home/ytrivedi/me759-juja/project/cuda
+[ 50%] Built target jacobianShared
+[100%] Built target jacobianBase
+========= CUDA-MEMCHECK
+========= ERROR SUMMARY: 0 errors

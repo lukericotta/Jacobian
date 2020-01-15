@@ -1,0 +1,21 @@
+"jacobian.cpp", line 42: warning: variable "read" was set but never used
+      ssize_t read;
+              ^
+
+f_eval(double *, int, int, double):
+     13, include "f_eval2.h"
+           1, Generating implicit acc routine seq
+              Generating acc routine seq
+              Generating Tesla code
+main:
+     79, Accelerator kernel generated
+         Generating Tesla code
+          3, #pragma acc loop seq
+         82, #pragma acc loop gang, vector(128) /* blockIdx.x threadIdx.x */
+         83, #pragma acc loop seq
+     79, Generating implicit copyout(result[:])
+           3, Loop carried scalar dependence for ..inline at line 4,7
+              Scalar last value needed after loop for ..inline at line 9
+          83, Complex loop carried dependence of result->,input+((m*i)*8)-> prevents parallelization
+           3, Loop carried scalar dependence for ..inline at line 4,7
+              Scalar last value needed after loop for ..inline at line 9

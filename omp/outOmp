@@ -1,0 +1,8 @@
+Sat May  4 22:29:42 UTC 2019
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/home/lukericotta/me759-juja/project/omp
+Scanning dependencies of target jacobian
+[ 50%] Building C object CMakeFiles/jacobian.dir/jacobian.c.o
+[100%] Linking C executable jacobian
+[100%] Built target jacobian

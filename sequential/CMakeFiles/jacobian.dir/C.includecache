@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/srv/home/maheshjuja/ece759/project/sequential/f_eval.h
+
+/srv/home/maheshjuja/ece759/project/sequential/jacobian.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+omp.h
+-
+f_eval.h
+/srv/home/maheshjuja/ece759/project/sequential/f_eval.h
+

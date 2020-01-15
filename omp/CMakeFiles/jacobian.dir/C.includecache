@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/srv/home/lukericotta/me759-juja/project/omp/f_eval2.h
+
+/srv/home/lukericotta/me759-juja/project/omp/jacobian.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+omp.h
+-
+f_eval2.h
+/srv/home/lukericotta/me759-juja/project/omp/f_eval2.h
+

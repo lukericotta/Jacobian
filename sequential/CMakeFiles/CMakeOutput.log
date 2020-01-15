@@ -1,0 +1,463 @@
+The system is: Linux - 3.10.0-957.5.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/gcc/x86_64/8.2.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/3.14.0/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fc17b/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_fc17b.dir/build.make CMakeFiles/cmTC_fc17b.dir/build
+gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc17b.dir/testCCompiler.c.o
+/usr/local/gcc/x86_64/8.2.0/bin/gcc    -o CMakeFiles/cmTC_fc17b.dir/testCCompiler.c.o   -c /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fc17b
+/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc17b.dir/link.txt --verbose=1
+/usr/local/gcc/x86_64/8.2.0/bin/gcc      CMakeFiles/cmTC_fc17b.dir/testCCompiler.c.o  -o cmTC_fc17b 
+gmake[1]: Leaving directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7b0d1/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_7b0d1.dir/build.make CMakeFiles/cmTC_7b0d1.dir/build
+gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o
+/usr/local/gcc/x86_64/8.2.0/bin/gcc   -v -o CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake/x86_64/3.14.0/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v /usr/local/cmake/x86_64/3.14.0/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccblVzRC.s
+GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/cuda/cusp"
+ignoring nonexistent directory "/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc
+ /usr/local/cuda-prefix/x86_64/default/10.0/include
+ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include
+ /usr/local/include
+ /usr/local/gcc/8.2.0/include
+ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 94899ce26478e5b783f746d7aa4cf155
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o /tmp/ccblVzRC.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-34.base.el7
+COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_7b0d1
+/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b0d1.dir/link.txt --verbose=1
+/usr/local/gcc/x86_64/8.2.0/bin/gcc     -v CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o  -o cmTC_7b0d1 
+Using built-in specs.
+COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b0d1' '-mtune=generic' '-march=x86-64'
+ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ0wLaG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7b0d1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b0d1' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc]
+    add: [/usr/local/cuda-prefix/x86_64/default/10.0/include]
+    add: [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/gcc/8.2.0/include]
+    add: [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  implicit include dirs: [/usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc;/usr/local/cuda-prefix/x86_64/default/10.0/include;/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include;/usr/local/include;/usr/local/gcc/8.2.0/include;/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_7b0d1/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7b0d1.dir/build.make CMakeFiles/cmTC_7b0d1.dir/build]
+  ignore line: [gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/gcc/x86_64/8.2.0/bin/gcc   -v -o CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake/x86_64/3.14.0/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v /usr/local/cmake/x86_64/3.14.0/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccblVzRC.s]
+  ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/cuda/cusp"]
+  ignore line: [ignoring nonexistent directory "/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc]
+  ignore line: [ /usr/local/cuda-prefix/x86_64/default/10.0/include]
+  ignore line: [ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/gcc/8.2.0/include]
+  ignore line: [ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 94899ce26478e5b783f746d7aa4cf155]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o /tmp/ccblVzRC.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-34.base.el7]
+  ignore line: [COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_7b0d1]
+  ignore line: [/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b0d1.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/gcc/x86_64/8.2.0/bin/gcc     -v CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o  -o cmTC_7b0d1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b0d1' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ0wLaG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7b0d1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZ0wLaG.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7b0d1] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64]
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64]
+    arg [-L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64]
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64]
+    arg [-L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_7b0d1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64]
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/lib64]
+  collapse library dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/usr/local/gcc/8.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64]
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/lib64]
+  collapse library dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/usr/local/gcc/8.2.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64;/usr/local/cuda-prefix/x86_64/default/10.0/lib64;/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/usr/local/gcc/8.2.0/lib64;/lib64;/usr/lib64;/usr/local/gcc/8.2.0/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f68f5/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_f68f5.dir/build.make CMakeFiles/cmTC_f68f5.dir/build
+gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f68f5.dir/feature_tests.c.o
+/usr/local/gcc/x86_64/8.2.0/bin/gcc   -std=c11 -o CMakeFiles/cmTC_f68f5.dir/feature_tests.c.o   -c /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f68f5
+/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f68f5.dir/link.txt --verbose=1
+/usr/local/gcc/x86_64/8.2.0/bin/gcc      CMakeFiles/cmTC_f68f5.dir/feature_tests.c.o  -o cmTC_f68f5 
+gmake[1]: Leaving directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4cbab/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_4cbab.dir/build.make CMakeFiles/cmTC_4cbab.dir/build
+gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cbab.dir/feature_tests.c.o
+/usr/local/gcc/x86_64/8.2.0/bin/gcc   -std=c99 -o CMakeFiles/cmTC_4cbab.dir/feature_tests.c.o   -c /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4cbab
+/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cbab.dir/link.txt --verbose=1
+/usr/local/gcc/x86_64/8.2.0/bin/gcc      CMakeFiles/cmTC_4cbab.dir/feature_tests.c.o  -o cmTC_4cbab 
+gmake[1]: Leaving directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d3742/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_d3742.dir/build.make CMakeFiles/cmTC_d3742.dir/build
+gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3742.dir/feature_tests.c.o
+/usr/local/gcc/x86_64/8.2.0/bin/gcc   -std=c90 -o CMakeFiles/cmTC_d3742.dir/feature_tests.c.o   -c /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d3742
+/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3742.dir/link.txt --verbose=1
+/usr/local/gcc/x86_64/8.2.0/bin/gcc      CMakeFiles/cmTC_d3742.dir/feature_tests.c.o  -o cmTC_d3742 
+gmake[1]: Leaving directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cb7e1/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_cb7e1.dir/build.make CMakeFiles/cmTC_cb7e1.dir/build
+gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o
+/usr/local/gcc/x86_64/8.2.0/bin/gcc   -fopenmp -v   -o CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o   -c /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -D_REENTRANT /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccPfeyLt.s
+GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/cuda/cusp"
+ignoring nonexistent directory "/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc
+ /usr/local/cuda-prefix/x86_64/default/10.0/include
+ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include
+ /usr/local/include
+ /usr/local/gcc/8.2.0/include
+ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 94899ce26478e5b783f746d7aa4cf155
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o /tmp/ccPfeyLt.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-34.base.el7
+COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_cb7e1
+/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb7e1.dir/link.txt --verbose=1
+/usr/local/gcc/x86_64/8.2.0/bin/gcc  -fopenmp -v    CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o  -o cmTC_cb7e1 -v 
+Using built-in specs.
+COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/
+Reading specs from /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cb7e1' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc91rfLx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cb7e1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cb7e1' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp'
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_cb7e1/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_cb7e1.dir/build.make CMakeFiles/cmTC_cb7e1.dir/build]
+  ignore line: [gmake[1]: Entering directory `/srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/local/gcc/x86_64/8.2.0/bin/gcc   -fopenmp -v   -o CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o   -c /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/cc1 -quiet -v -D_REENTRANT /srv/home/maheshjuja/ece759/project/sequential/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccPfeyLt.s]
+  ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/cuda/cusp"]
+  ignore line: [ignoring nonexistent directory "/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/usr/local/cuda-prefix/x86_64/default/10.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda-prefix/x86_64/default/10.0/samples/common/inc]
+  ignore line: [ /usr/local/cuda-prefix/x86_64/default/10.0/include]
+  ignore line: [ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/gcc/8.2.0/include]
+  ignore line: [ /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 94899ce26478e5b783f746d7aa4cf155]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o /tmp/ccPfeyLt.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-34.base.el7]
+  ignore line: [COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_cb7e1]
+  ignore line: [/usr/local/cmake/x86_64/3.14.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb7e1.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/gcc/x86_64/8.2.0/bin/gcc  -fopenmp -v    CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o  -o cmTC_cb7e1 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/gcc/x86_64/8.2.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-8.2.0/configure --prefix=/usr/local/gcc/8.2.0 --disable-multilib --enable-languages=c,c++,fortran,go]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/:/usr/local/cuda-prefix/x86_64/default/10.0/lib64/:/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cb7e1' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2 -plugin /usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so -plugin-opt=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc91rfLx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cb7e1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64 -L/usr/local/cuda-prefix/x86_64/default/10.0/lib64 -L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../.. CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/gcc/8.2.0/libexec/gcc/x86_64-pc-linux-gnu/8.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc91rfLx.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cb7e1] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64]
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64]
+    arg [-L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+    arg [-L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64]
+    arg [-L/usr/local/cuda-prefix/x86_64/default/10.0/lib64] ==> dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64]
+    arg [-L/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..]
+    arg [CMakeFiles/cmTC_cb7e1.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64/../lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64]
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64/../lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/lib64]
+  collapse library dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0] ==> [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0]
+  collapse library dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../../../lib64] ==> [/usr/local/gcc/8.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64]
+  collapse library dir [/usr/local/cuda-prefix/x86_64/default/10.0/lib64] ==> [/usr/local/cuda-prefix/x86_64/default/10.0/lib64]
+  collapse library dir [/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0/../../..] ==> [/usr/local/gcc/8.2.0/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/cuda-prefix/x86_64/default/10.0/nvvm/lib64;/usr/local/cuda-prefix/x86_64/default/10.0/lib64;/usr/local/gcc/8.2.0/lib/gcc/x86_64-pc-linux-gnu/8.2.0;/usr/local/gcc/8.2.0/lib64;/lib64;/usr/lib64;/usr/local/gcc/8.2.0/lib]
+  implicit fwks: []
+
+

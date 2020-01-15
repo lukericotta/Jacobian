@@ -1,0 +1,4 @@
+/srv/home/ytrivedi/me759-juja/project/cuda/CMakeFiles/rebuild_cache.dir
+/srv/home/ytrivedi/me759-juja/project/cuda/CMakeFiles/edit_cache.dir
+/srv/home/ytrivedi/me759-juja/project/cuda/CMakeFiles/jacobianShared.dir
+/srv/home/ytrivedi/me759-juja/project/cuda/CMakeFiles/jacobianBase.dir

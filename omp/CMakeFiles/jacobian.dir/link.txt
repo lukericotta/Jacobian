@@ -1,0 +1,1 @@
+/usr/local/gcc/x86_64/8.2.0/bin/gcc  -fopenmp    CMakeFiles/jacobian.dir/jacobian.c.o  -o jacobian -lm 

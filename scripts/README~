@@ -1,0 +1,6 @@
+for running generatePlots.py, supply two command line arguments - 
+
+arg1 = input file name
+arg2 = output plot image file name
+
+Eg: 

@@ -1,0 +1,13 @@
+Fri May  3 01:18:51 UTC 2019
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/home/lukericotta/me759-juja/project/thrust
+[100%] Built target jacobian
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  trivial_device_copy D->H failed: an illegal memory access was encountered
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  trivial_device_copy D->H failed: an illegal memory access was encountered
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  trivial_device_copy D->H failed: an illegal memory access was encountered
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  trivial_device_copy D->H failed: an illegal memory access was encountered

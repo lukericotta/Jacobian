@@ -1,0 +1,3 @@
+/srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/edit_cache.dir
+/srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/rebuild_cache.dir
+/srv/home/lukericotta/me759-juja/project/thrust/CMakeFiles/jacobian2.dir

@@ -1,0 +1,17 @@
+Mon May  6 05:47:20 UTC 2019
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/home/maheshjuja/me759-juja/project/cuda
+Scanning dependencies of target jacobianShared2
+[  8%] Building CUDA object CMakeFiles/jacobianShared2.dir/jacobianShared2.cu.o
+[ 16%] Linking CUDA device code CMakeFiles/jacobianShared2.dir/cmake_device_link.o
+[ 25%] Linking CUDA executable jacobianShared2
+[ 25%] Built target jacobianShared2
+[ 50%] Built target jacobianShared
+Scanning dependencies of target jacobianBase2
+[ 58%] Building CUDA object CMakeFiles/jacobianBase2.dir/jacobianBase2.cu.o
+[ 66%] Linking CUDA device code CMakeFiles/jacobianBase2.dir/cmake_device_link.o
+[ 75%] Linking CUDA executable jacobianBase2
+[ 75%] Built target jacobianBase2
+[100%] Built target jacobianBase
+slurmstepd: error: *** JOB 569363 ON gauss CANCELLED AT 2019-05-06T06:17:34 ***
